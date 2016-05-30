@@ -1,0 +1,41 @@
+{
+  "name": "gulp-iniscan",
+  "version": "0.0.1",
+  "description": "Gulp plugin for running iniscan",
+  "homepage": "https://github.com/juliangut/gulp-iniscan",
+  "bugs": "https://github.com/juliangut/gulp-iniscan/issues",
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "gulp",
+    "plugin",
+    "php",
+    "iniscan"
+  ],
+  "author": {
+    "name": "Julián Gutiérrez",
+    "email": "juliangut@gmail.com",
+    "url": "http://juliangut.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/juliangut/gulp-iniscan.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "extend": "^3.0.0",
+    "gulp-util": "^3.0.0",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "event-stream": "^3.3.0",
+    "mocha": "^1.18.0",
+    "should": "^9.0.0"
+  },
+  "engines": {
+    "node": ">= 0.8.0",
+    "npm": ">=1.2.10"
+  }
+}
